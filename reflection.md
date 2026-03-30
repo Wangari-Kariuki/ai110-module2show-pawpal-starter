@@ -1,9 +1,18 @@
 # PawPal+ Project Reflection
 
 ## 1. System Design
-
+A once logged in the user should be able to track their pets' care tasks such as feeding, meds, grooming, enrishment. 
+the agent should be able to answer questions such as: has the pet been fed? when was the last visit to the vet? when was the last time the pet was groomed? 
+Consider constraints (time available, priority, owner preferences)
+the user should be able to view their daily plan for pet care
+ 
 **a. Initial design**
+System UML: 
+Classes: pet-ownwer (login(), track_pet_activity(), update_pet_info(), [account, pets_list, daily_plan ]),
+ pet([name, pet_id, age, med_info, physical_attributes] , treatment(), grooming()),
 
+
+![UML for pawpal systemd design](image.png)
 - Briefly describe your initial UML design.
 - What classes did you include, and what responsibilities did you assign to each?
 
