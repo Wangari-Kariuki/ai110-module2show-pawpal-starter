@@ -15,7 +15,7 @@ Classes: pet-ownwer (login(), track_pet_activity(), update_pet_info(), [account,
 ![UML for pawpal systemd design](image.png)
 - Briefly describe your initial UML design.
 - What classes did you include, and what responsibilities did you assign to each?
-
+my
 **b. Design changes**
 
 - Did your design change during implementation?
